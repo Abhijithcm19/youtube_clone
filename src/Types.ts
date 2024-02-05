@@ -4,7 +4,7 @@ export interface InitialState{
   searchTerm:string;
   searchResults:[];
   nextPageToken:string | null;
-  recommendedVideos: RecommentedVideos[];
+  recommendedVideos: RecommendedVideos[];
 
 }
 
@@ -40,7 +40,7 @@ export interface CurrentPlaying {
   };
 }
 
-export interface RecommentedVideos {
+export interface RecommendedVideos {
   videoId: string;
   videoTitle: string;
   videoThumbnail: string;
